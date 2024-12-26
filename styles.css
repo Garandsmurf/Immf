@@ -37,7 +37,6 @@ header {
   }
 }
 
-
 /* .logo styles for smaller logo */
 .logo {
   width: 50px;
@@ -48,20 +47,20 @@ header {
   border-radius: 50%;
   border: 2px solid #d72638;
   margin-right: 10px;
+  animation: fadeIn 2s forwards; /* Fade-in for logo */
 }
 
 /* .logo1 styles for larger logo */
 .logo1 {
   width: 140px;
   height: 60px;
-  background-image: url('immf.jpg'); /* Same or different path */
+  background-image: url('immf.jpg'); /* Path to logo */
   background-size: cover;
   background-position: center;
   border-radius: 50%;
   border: 2px solid #d72638;
   margin-right: 20px;
-}
-  animation: fadeIn 2s forwards; /* Fade-in for logos */
+  animation: fadeIn 2s forwards; /* Fade-in for logo */
 }
 
 @keyframes fadeIn {
@@ -71,13 +70,8 @@ header {
   100% {
     opacity: 1;
   }
-.logo {
-  background-image: url('immf.jpg');
 }
 
-.logo1 {
-  background-image: url('immf.jpg');
-}
 /* Title Container */
 .title-container {
   display: flex;
@@ -329,4 +323,4 @@ footer a {
 
 footer a:hover {
   color: #a11d2b;
-}
+                   }
