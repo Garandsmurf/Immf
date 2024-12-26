@@ -71,16 +71,13 @@ header {
   100% {
     opacity: 1;
   }
-}
-
 .logo {
-  background-image: url('../photos/immf.jpg'); /* Path to your first logo image */
+  background-image: url('immf.jpg');
 }
 
 .logo1 {
-  background-image: url('../photos/immf.jpg'); /* Path to your second logo image */
+  background-image: url('immf.jpg');
 }
-
 /* Title Container */
 .title-container {
   display: flex;
